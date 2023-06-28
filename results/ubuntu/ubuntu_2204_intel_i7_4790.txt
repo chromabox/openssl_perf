@@ -1,0 +1,219 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing AES-128-CBC for 3s on 16 size blocks: 148796171 AES-128-CBC's in 3.00s
+Doing AES-128-CBC for 3s on 64 size blocks: 40531067 AES-128-CBC's in 3.00s
+Doing AES-128-CBC for 3s on 256 size blocks: 10330490 AES-128-CBC's in 3.00s
+Doing AES-128-CBC for 3s on 1024 size blocks: 2600307 AES-128-CBC's in 3.00s
+Doing AES-128-CBC for 3s on 8192 size blocks: 324236 AES-128-CBC's in 3.00s
+Doing AES-128-CBC for 3s on 16384 size blocks: 161935 AES-128-CBC's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-CBC     793579.58k   864662.76k   881535.15k   887571.46k   885380.44k   884381.01k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing AES-256-CBC for 3s on 16 size blocks: 111087251 AES-256-CBC's in 3.00s
+Doing AES-256-CBC for 3s on 64 size blocks: 29314272 AES-256-CBC's in 3.00s
+Doing AES-256-CBC for 3s on 256 size blocks: 7456041 AES-256-CBC's in 3.00s
+Doing AES-256-CBC for 3s on 1024 size blocks: 1863976 AES-256-CBC's in 3.00s
+Doing AES-256-CBC for 3s on 8192 size blocks: 233337 AES-256-CBC's in 3.00s
+Doing AES-256-CBC for 3s on 16384 size blocks: 116911 AES-256-CBC's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-CBC     592465.34k   625371.14k   636248.83k   636237.14k   637165.57k   638489.94k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing AES-128-GCM for 3s on 16 size blocks: 71070501 AES-128-GCM's in 3.00s
+Doing AES-128-GCM for 3s on 64 size blocks: 51868701 AES-128-GCM's in 3.00s
+Doing AES-128-GCM for 3s on 256 size blocks: 28990274 AES-128-GCM's in 3.00s
+Doing AES-128-GCM for 3s on 1024 size blocks: 9158100 AES-128-GCM's in 3.00s
+Doing AES-128-GCM for 3s on 8192 size blocks: 1334414 AES-128-GCM's in 3.00s
+Doing AES-128-GCM for 3s on 16384 size blocks: 665111 AES-128-GCM's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-GCM     379042.67k  1106532.29k  2473836.71k  3125964.80k  3643839.83k  3632392.87k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing AES-256-GCM for 3s on 16 size blocks: 66671925 AES-256-GCM's in 3.00s
+Doing AES-256-GCM for 3s on 64 size blocks: 45716440 AES-256-GCM's in 3.00s
+Doing AES-256-GCM for 3s on 256 size blocks: 25229205 AES-256-GCM's in 3.00s
+Doing AES-256-GCM for 3s on 1024 size blocks: 7736319 AES-256-GCM's in 3.00s
+Doing AES-256-GCM for 3s on 8192 size blocks: 1110208 AES-256-GCM's in 3.00s
+Doing AES-256-GCM for 3s on 16384 size blocks: 563720 AES-256-GCM's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-GCM     355583.60k   975284.05k  2152892.16k  2640663.55k  3031607.98k  3078662.83k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing sha1 for 3s on 16 size blocks: 15692057 sha1's in 3.00s
+Doing sha1 for 3s on 64 size blocks: 11366923 sha1's in 3.00s
+Doing sha1 for 3s on 256 size blocks: 6866208 sha1's in 3.00s
+Doing sha1 for 3s on 1024 size blocks: 2644840 sha1's in 3.00s
+Doing sha1 for 3s on 8192 size blocks: 396489 sha1's in 3.00s
+Doing sha1 for 3s on 16384 size blocks: 200275 sha1's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha1             83690.97k   242494.36k   585916.42k   902772.05k  1082679.30k  1093768.53k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing sha256 for 3s on 16 size blocks: 10894842 sha256's in 3.00s
+Doing sha256 for 3s on 64 size blocks: 7064133 sha256's in 3.00s
+Doing sha256 for 3s on 256 size blocks: 3755919 sha256's in 3.00s
+Doing sha256 for 3s on 1024 size blocks: 1300124 sha256's in 3.00s
+Doing sha256 for 3s on 8192 size blocks: 181542 sha256's in 3.00s
+Doing sha256 for 3s on 16384 size blocks: 90214 sha256's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           58105.82k   150701.50k   320505.09k   443775.66k   495730.69k   492688.73k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing sha512 for 3s on 16 size blocks: 7925376 sha512's in 3.00s
+Doing sha512 for 3s on 64 size blocks: 7856648 sha512's in 3.00s
+Doing sha512 for 3s on 256 size blocks: 4079846 sha512's in 3.00s
+Doing sha512 for 3s on 1024 size blocks: 1672199 sha512's in 3.00s
+Doing sha512 for 3s on 8192 size blocks: 260779 sha512's in 3.00s
+Doing sha512 for 3s on 16384 size blocks: 133406 sha512's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha512           42268.67k   167608.49k   348146.86k   570777.26k   712100.52k   728574.63k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BLAKE2s256 for 3s on 16 size blocks: 11805912 BLAKE2s256's in 3.00s
+Doing BLAKE2s256 for 3s on 64 size blocks: 11909766 BLAKE2s256's in 3.00s
+Doing BLAKE2s256 for 3s on 256 size blocks: 4919599 BLAKE2s256's in 3.00s
+Doing BLAKE2s256 for 3s on 1024 size blocks: 1505557 BLAKE2s256's in 3.00s
+Doing BLAKE2s256 for 3s on 8192 size blocks: 202349 BLAKE2s256's in 3.00s
+Doing BLAKE2s256 for 3s on 16384 size blocks: 101676 BLAKE2s256's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BLAKE2s256       62964.86k   254075.01k   419805.78k   513896.79k   552547.67k   555286.53k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BLAKE2b512 for 3s on 16 size blocks: 10054172 BLAKE2b512's in 3.00s
+Doing BLAKE2b512 for 3s on 64 size blocks: 10017645 BLAKE2b512's in 3.00s
+Doing BLAKE2b512 for 3s on 256 size blocks: 6649052 BLAKE2b512's in 3.00s
+Doing BLAKE2b512 for 3s on 1024 size blocks: 2295456 BLAKE2b512's in 3.00s
+Doing BLAKE2b512 for 3s on 8192 size blocks: 323151 BLAKE2b512's in 3.00s
+Doing BLAKE2b512 for 3s on 16384 size blocks: 163202 BLAKE2b512's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BLAKE2b512       53622.25k   213709.76k   567385.77k   783515.65k   882417.66k   891300.52k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing ChaCha20-Poly1305 for 3s on 16 size blocks: 52337021 ChaCha20-Poly1305's in 3.00s
+Doing ChaCha20-Poly1305 for 3s on 64 size blocks: 23660618 ChaCha20-Poly1305's in 3.00s
+Doing ChaCha20-Poly1305 for 3s on 256 size blocks: 13103499 ChaCha20-Poly1305's in 3.00s
+Doing ChaCha20-Poly1305 for 3s on 1024 size blocks: 5722256 ChaCha20-Poly1305's in 3.00s
+Doing ChaCha20-Poly1305 for 3s on 8192 size blocks: 763869 ChaCha20-Poly1305's in 3.00s
+Doing ChaCha20-Poly1305 for 3s on 16384 size blocks: 383086 ChaCha20-Poly1305's in 3.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20-Poly1305   279130.78k   504759.85k  1118165.25k  1953196.71k  2085871.62k  2092160.34k
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 160 bits  ecdh's for 10s: 61213 160-bits ECDH ops in 10.00s
+Doing 192 bits  ecdh's for 10s: 49900 192-bits ECDH ops in 10.00s
+Doing 224 bits  ecdh's for 10s: 136271 224-bits ECDH ops in 10.00s
+Doing 256 bits  ecdh's for 10s: 166029 256-bits ECDH ops in 10.00s
+Doing 384 bits  ecdh's for 10s: 13037 384-bits ECDH ops in 10.00s
+Doing 521 bits  ecdh's for 10s: 25857 521-bits ECDH ops in 10.00s
+Doing 163 bits  ecdh's for 10s: 49963 163-bits ECDH ops in 10.00s
+Doing 233 bits  ecdh's for 10s: 35848 233-bits ECDH ops in 10.00s
+Doing 283 bits  ecdh's for 10s: 21047 283-bits ECDH ops in 10.00s
+Doing 409 bits  ecdh's for 10s: 12516 409-bits ECDH ops in 10.00s
+Doing 571 bits  ecdh's for 10s: 5604 571-bits ECDH ops in 10.00s
+Doing 163 bits  ecdh's for 10s: 47866 163-bits ECDH ops in 10.00s
+Doing 233 bits  ecdh's for 10s: 34755 233-bits ECDH ops in 10.00s
+Doing 283 bits  ecdh's for 10s: 19920 283-bits ECDH ops in 10.00s
+Doing 409 bits  ecdh's for 10s: 11855 409-bits ECDH ops in 10.00s
+Doing 571 bits  ecdh's for 10s: 5257 571-bits ECDH ops in 10.00s
+Doing 256 bits  ecdh's for 10s: 30611 256-bits ECDH ops in 10.00s
+Doing 256 bits  ecdh's for 10s: 30743 256-bits ECDH ops in 10.00s
+Doing 384 bits  ecdh's for 10s: 12899 384-bits ECDH ops in 10.00s
+Doing 384 bits  ecdh's for 10s: 13177 384-bits ECDH ops in 10.00s
+Doing 512 bits  ecdh's for 10s: 6979 512-bits ECDH ops in 10.01s
+Doing 512 bits  ecdh's for 10s: 7102 512-bits ECDH ops in 10.00s
+Doing 253 bits  ecdh's for 10s: 234441 253-bits ECDH ops in 10.00s
+Doing 448 bits  ecdh's for 10s: 46067 448-bits ECDH ops in 10.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+                              op      op/s
+ 160 bits ecdh (secp160r1)   0.0002s   6121.3
+ 192 bits ecdh (nistp192)   0.0002s   4990.0
+ 224 bits ecdh (nistp224)   0.0001s  13627.1
+ 256 bits ecdh (nistp256)   0.0001s  16602.9
+ 384 bits ecdh (nistp384)   0.0008s   1303.7
+ 521 bits ecdh (nistp521)   0.0004s   2585.7
+ 163 bits ecdh (nistk163)   0.0002s   4996.3
+ 233 bits ecdh (nistk233)   0.0003s   3584.8
+ 283 bits ecdh (nistk283)   0.0005s   2104.7
+ 409 bits ecdh (nistk409)   0.0008s   1251.6
+ 571 bits ecdh (nistk571)   0.0018s    560.4
+ 163 bits ecdh (nistb163)   0.0002s   4786.6
+ 233 bits ecdh (nistb233)   0.0003s   3475.5
+ 283 bits ecdh (nistb283)   0.0005s   1992.0
+ 409 bits ecdh (nistb409)   0.0008s   1185.5
+ 571 bits ecdh (nistb571)   0.0019s    525.7
+ 256 bits ecdh (brainpoolP256r1)   0.0003s   3061.1
+ 256 bits ecdh (brainpoolP256t1)   0.0003s   3074.3
+ 384 bits ecdh (brainpoolP384r1)   0.0008s   1289.9
+ 384 bits ecdh (brainpoolP384t1)   0.0008s   1317.7
+ 512 bits ecdh (brainpoolP512r1)   0.0014s    697.2
+ 512 bits ecdh (brainpoolP512t1)   0.0014s    710.2
+ 253 bits ecdh (X25519)   0.0000s  23444.1
+ 448 bits ecdh (X448)   0.0002s   4606.7
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 253 bits sign Ed25519's for 10s: 245152 253 bits Ed25519 signs in 10.00s 
+Doing 253 bits verify Ed25519's for 10s: 91461 253 bits Ed25519 verify in 10.00s
+Doing 456 bits sign Ed448's for 10s: 45574 456 bits Ed448 signs in 10.00s 
+Doing 456 bits verify Ed448's for 10s: 42315 456 bits Ed448 verify in 10.00s
+version: 3.0.2
+built on: Wed May 24 17:12:55 2023 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-Z1YLmC/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3ffffebffff:0x27ab
+                              sign    verify    sign/s verify/s
+ 253 bits EdDSA (Ed25519)   0.0000s   0.0001s  24515.2   9146.1
+ 456 bits EdDSA (Ed448)   0.0002s   0.0002s   4557.4   4231.5
+
