@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # useful
 openssl speed -elapsed -evp aes-128-cbc 
