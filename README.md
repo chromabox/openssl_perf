@@ -1,0 +1,2 @@
+# openssl_perf
+opensslでの暗号ベンチマークスクリプトや結果など
