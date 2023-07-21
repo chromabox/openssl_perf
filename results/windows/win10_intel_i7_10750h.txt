@@ -1,171 +1,18 @@
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-128-cbc for 3s on 16 size blocks: 185268343 aes-128-cbc's in 3.01s
-Doing aes-128-cbc for 3s on 64 size blocks: 73045932 aes-128-cbc's in 3.01s
-Doing aes-128-cbc for 3s on 256 size blocks: 19776428 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 1024 size blocks: 4968779 aes-128-cbc's in 3.01s
-Doing aes-128-cbc for 3s on 8192 size blocks: 619412 aes-128-cbc's in 3.01s
-Doing aes-128-cbc for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
+OpenSSL 1.1.1j  16 Feb 2021
 built on: Tue Feb 16 19:32:01 2021 UTC
 options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
 compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
 type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-128-cbc     984488.04k  1550560.41k  1685902.62k  1692061.75k  1687470.27k  1675771.41k
-307968 aes-128-cbc's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-256-cbc for 3s on 16 size blocks: 170485644 aes-256-cbc's in 3.01s
-Doing aes-256-cbc for 3s on 64 size blocks: 56123421 aes-256-cbc's in 3.01s
-Doing aes-256-cbc for 3s on 256 size blocks: 13902695 aes-256-cbc's in 3.01s
-Doing aes-256-cbc for 3s on 1024 size blocks: 3604325 aes-256-cbc's in 3.01s
-Doing aes-256-cbc for 3s on 8192 size blocks: 449700 aes-256-cbc's in 3.01s
-Doing aes-256-cbc for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-256-cbc     905033.28k  1192925.59k  1182421.90k  1227412.30k  1222682.51k  1228609.68k
-225940 aes-256-cbc's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-128-gcm for 3s on 16 size blocks: 105890721 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 64 size blocks: 63483267 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 256 size blocks: 34465780 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 1024 size blocks: 14311617 aes-128-gcm's in 3.01s
-Doing aes-128-gcm for 3s on 8192 size blocks: 2195821 aes-128-gcm's in 3.01s
-Doing aes-128-gcm for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-128-gcm     564186.33k  1353858.41k  2938141.75k  4872039.83k  5968203.59k  6419370.95k
-1179340 aes-128-gcm's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-256-gcm for 3s on 16 size blocks: 100833379 aes-256-gcm's in 3.01s
-Doing aes-256-gcm for 3s on 64 size blocks: 59571576 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 256 size blocks: 30039007 aes-256-gcm's in 3.01s
-Doing aes-256-gcm for 3s on 1024 size blocks: 11457718 aes-256-gcm's in 3.01s
-Doing aes-256-gcm for 3s on 8192 size blocks: 1729036 aes-256-gcm's in 3.01s
-Doing aes-256-gcm for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-256-gcm     535991.38k  1269590.70k  2556511.23k  3896613.49k  4702610.53k  4519823.05k
-830363 aes-256-gcm's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha1 for 3s on 16 size blocks: 10979853 sha1's in 3.02s
-Doing sha1 for 3s on 64 size blocks: 8950246 sha1's in 3.01s
-Doing sha1 for 3s on 256 size blocks: 6070431 sha1's in 3.00s
-Doing sha1 for 3s on 1024 size blocks: 2473290 sha1's in 3.01s
-Doing sha1 for 3s on 8192 size blocks: 426283 sha1's in 3.00s
-Doing sha1 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha1             58209.96k   190304.23k   517492.62k   841411.61k  1162873.90k  1188275.17k
-218450 sha1's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha256 for 3s on 16 size blocks: 8782118 sha256's in 3.01s
-Doing sha256 for 3s on 64 size blocks: 6071122 sha256's in 3.00s
-Doing sha256 for 3s on 256 size blocks: 3747130 sha256's in 3.01s
-Doing sha256 for 3s on 1024 size blocks: 1392901 sha256's in 3.01s
-Doing sha256 for 3s on 8192 size blocks: 196341 sha256's in 3.01s
-Doing sha256 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha256           46697.87k   129344.81k   318798.70k   473863.99k   534893.74k   555729.34k
-101791 sha256's in 3.00s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha512 for 3s on 16 size blocks: 7059290 sha512's in 3.01s
-Doing sha512 for 3s on 64 size blocks: 7152632 sha512's in 3.01s
-Doing sha512 for 3s on 256 size blocks: 3888922 sha512's in 3.01s
-Doing sha512 for 3s on 1024 size blocks: 1807845 sha512's in 3.01s
-Doing sha512 for 3s on 8192 size blocks: 296788 sha512's in 3.01s
-Doing sha512 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha512           37462.24k   151981.56k   330313.22k   614007.72k   807468.38k   816086.50k
-149928 sha512's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing blake2s256 for 3s on 16 size blocks: 9059063 blake2s256's in 3.02s
-Doing blake2s256 for 3s on 64 size blocks: 9604406 blake2s256's in 3.00s
-Doing blake2s256 for 3s on 256 size blocks: 4888746 blake2s256's in 3.00s
-Doing blake2s256 for 3s on 1024 size blocks: 1612656 blake2s256's in 3.01s
-Doing blake2s256 for 3s on 8192 size blocks: 234411 blake2s256's in 3.01s
-Doing blake2s256 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 blake2s256       47915.71k   204553.07k   416617.50k   548624.50k   637125.05k   651050.43k
-119648 blake2s256's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing blake2b512 for 3s on 16 size blocks: 8499645 blake2b512's in 3.01s
-Doing blake2b512 for 3s on 64 size blocks: 8083572 blake2b512's in 3.01s
-Doing blake2b512 for 3s on 256 size blocks: 6177052 blake2b512's in 3.01s
-Doing blake2b512 for 3s on 1024 size blocks: 2436739 blake2b512's in 3.01s
-Doing blake2b512 for 3s on 8192 size blocks: 370174 blake2b512's in 3.00s
-Doing blake2b512 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 blake2b512       45165.83k   171648.51k   525008.40k   830080.09k  1010148.37k   958477.59k
-176380 blake2b512's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing chacha20-poly1305 for 3s on 16 size blocks: 66061944 chacha20-poly1305's in 3.01s
-Doing chacha20-poly1305 for 3s on 64 size blocks: 31521763 chacha20-poly1305's in 3.01s
-Doing chacha20-poly1305 for 3s on 256 size blocks: 14599131 chacha20-poly1305's in 3.01s
-Doing chacha20-poly1305 for 3s on 1024 size blocks: 6724310 chacha20-poly1305's in 3.01s
-Doing chacha20-poly1305 for 3s on 8192 size blocks: 922035 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 16384 size blocks: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 chacha20-poly1305   351043.21k   670007.58k  1240005.82k  2287605.79k  2516092.84k  2553944.45k
-469200 chacha20-poly1305's in 3.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing 160 bits  ecdh's for 10s: 58534 160-bits ECDH ops in 10.00s
-Doing 192 bits  ecdh's for 10s: 48207 192-bits ECDH ops in 10.00s
-Doing 224 bits  ecdh's for 10s: 33953 224-bits ECDH ops in 10.01s
-Doing 256 bits  ecdh's for 10s: 235648 256-bits ECDH ops in 10.01s
-Doing 384 bits  ecdh's for 10s: 13364 384-bits ECDH ops in 10.02s
-Doing 521 bits  ecdh's for 10s: 5725 521-bits ECDH ops in 10.01s
-Doing 163 bits  ecdh's for 10s: 55856 163-bits ECDH ops in 10.01s
-Doing 233 bits  ecdh's for 10s: 44340 233-bits ECDH ops in 10.02s
-Doing 283 bits  ecdh's for 10s: 25542 283-bits ECDH ops in 10.00s
-Doing 409 bits  ecdh's for 10s: 16042 409-bits ECDH ops in 10.01s
-Doing 571 bits  ecdh's for 10s: 7267 571-bits ECDH ops in 10.02s
-Doing 163 bits  ecdh's for 10s: 54217 163-bits ECDH ops in 10.01s
-Doing 233 bits  ecdh's for 10s: 42438 233-bits ECDH ops in 10.00s
-Doing 283 bits  ecdh's for 10s: 24331 283-bits ECDH ops in 10.00s
-Doing 409 bits  ecdh's for 10s: 15202 409-bits ECDH ops in 10.02s
-Doing 571 bits  ecdh's for 10s: 6788 571-bits ECDH ops in 10.02s
-Doing 256 bits  ecdh's for 10s: 30207 256-bits ECDH ops in 10.01s
-Doing 256 bits  ecdh's for 10s: 30698 256-bits ECDH ops in 10.01s
-Doing 384 bits  ecdh's for 10s: 13360 384-bits ECDH ops in 10.02s
-Doing 384 bits  ecdh's for 10s: 13483 384-bits ECDH ops in 10.01s
-Doing 512 bits  ecdh's for 10s: 8883 512-bits ECDH ops in 10.01s
-Doing 512 bits  ecdh's for 10s: 8927 512-bits ECDH ops in 10.01s
-Doing 253 bits  ecdh's for 10s: 348736 253-bits ECDH ops in 10.01s
-Doing 448 bits  ecdh's for 10s: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
                               op      op/s
  160 bits ecdh (secp160r1)   0.0002s   5851.1
  192 bits ecdh (nistp192)   0.0002s   4818.3
@@ -191,16 +38,6 @@ compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPEN
  512 bits ecdh (brainpoolP512t1)   0.0011s    892.2
  253 bits ecdh (X25519)   0.0000s  34845.7
  448 bits ecdh (X448)   0.0004s   2350.7
-23526 448-bits ECDH ops in 10.01s
-You have chosen to measure elapsed time instead of user CPU time.
-Doing 253 bits sign Ed25519's for 10s: 363965 253 bits Ed25519 signs in 10.02s
-Doing 253 bits verify Ed25519's for 10s: 113182 253 bits Ed25519 verify in 10.00s
-Doing 456 bits sign Ed448's for 10s: 37946 456 bits Ed448 signs in 10.01s
-Doing 456 bits verify Ed448's for 10s: OpenSSL 1.1.1j  16 Feb 2021
-built on: Tue Feb 16 19:32:01 2021 UTC
-options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
-compiler: gcc -m64 -Wall -O3 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -D_MT -DZLIB -DZLIB_SHARED -DNDEBUG -D__MINGW_USE_VC2005_COMPAT -DOPENSSLBIN="\"/mingw64/bin\""
                               sign    verify    sign/s verify/s
  253 bits EdDSA (Ed25519)   0.0000s   0.0001s  36331.1  11317.1
  456 bits EdDSA (Ed448)   0.0003s   0.0005s   3791.2   2142.2
-21454 456 bits Ed448 verify in 10.01s

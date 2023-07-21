@@ -1,10 +1,3 @@
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-128-cbc for 3s on 16 size blocks: 3339130 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 64 size blocks: 1019485 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 256 size blocks: 270766 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 1024 size blocks: 68778 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 8192 size blocks: 8635 aes-128-cbc's in 3.00s
-Doing aes-128-cbc for 3s on 16384 size blocks: 4316 aes-128-cbc's in 3.00s
 OpenSSL 1.1.1u  30 May 2023
 built on: Fri Jun 23 15:47:53 2023 UTC
 options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
@@ -12,125 +5,15 @@ compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wa
 The 'numbers' are in 1000s of bytes per second processed.
 type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-128-cbc      17808.69k    21749.01k    23105.37k    23476.22k    23579.31k    23571.11k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-256-cbc for 3s on 16 size blocks: 2724004 aes-256-cbc's in 3.00s
-Doing aes-256-cbc for 3s on 64 size blocks: 799707 aes-256-cbc's in 3.00s
-Doing aes-256-cbc for 3s on 256 size blocks: 209592 aes-256-cbc's in 3.00s
-Doing aes-256-cbc for 3s on 1024 size blocks: 53007 aes-256-cbc's in 3.00s
-Doing aes-256-cbc for 3s on 8192 size blocks: 6646 aes-256-cbc's in 3.00s
-Doing aes-256-cbc for 3s on 16384 size blocks: 3321 aes-256-cbc's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-256-cbc      14528.02k    17060.42k    17885.18k    18093.06k    18148.01k    18137.09k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-128-gcm for 3s on 16 size blocks: 1971580 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 64 size blocks: 524269 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 256 size blocks: 134127 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 1024 size blocks: 33724 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 8192 size blocks: 4224 aes-128-gcm's in 3.00s
-Doing aes-128-gcm for 3s on 16384 size blocks: 2113 aes-128-gcm's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-128-gcm      10515.09k    11184.41k    11445.50k    11511.13k    11534.34k    11539.80k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing aes-256-gcm for 3s on 16 size blocks: 1736055 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 64 size blocks: 463298 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 256 size blocks: 118154 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 1024 size blocks: 29742 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 8192 size blocks: 3718 aes-256-gcm's in 3.00s
-Doing aes-256-gcm for 3s on 16384 size blocks: 1862 aes-256-gcm's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-256-gcm       9258.96k     9883.69k    10082.47k    10151.94k    10152.62k    10169.00k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha1 for 3s on 16 size blocks: 939886 sha1's in 3.00s
-Doing sha1 for 3s on 64 size blocks: 716417 sha1's in 3.00s
-Doing sha1 for 3s on 256 size blocks: 401380 sha1's in 3.00s
-Doing sha1 for 3s on 1024 size blocks: 147099 sha1's in 3.00s
-Doing sha1 for 3s on 8192 size blocks: 21210 sha1's in 3.00s
-Doing sha1 for 3s on 16384 size blocks: 10740 sha1's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha1              5012.73k    15283.56k    34251.09k    50209.79k    57917.44k    58654.72k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha256 for 3s on 16 size blocks: 756708 sha256's in 3.00s
-Doing sha256 for 3s on 64 size blocks: 530504 sha256's in 3.00s
-Doing sha256 for 3s on 256 size blocks: 273572 sha256's in 3.00s
-Doing sha256 for 3s on 1024 size blocks: 93170 sha256's in 3.00s
-Doing sha256 for 3s on 8192 size blocks: 13029 sha256's in 3.00s
-Doing sha256 for 3s on 16384 size blocks: 6559 sha256's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha256            4035.78k    11317.42k    23344.81k    31802.03k    35577.86k    35820.89k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing sha512 for 3s on 16 size blocks: 299662 sha512's in 3.00s
-Doing sha512 for 3s on 64 size blocks: 299294 sha512's in 3.00s
-Doing sha512 for 3s on 256 size blocks: 118479 sha512's in 3.00s
-Doing sha512 for 3s on 1024 size blocks: 42075 sha512's in 3.00s
-Doing sha512 for 3s on 8192 size blocks: 6006 sha512's in 3.00s
-Doing sha512 for 3s on 16384 size blocks: 3034 sha512's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 sha512            1598.20k     6384.94k    10110.21k    14361.60k    16400.38k    16569.69k
 speed: BLAKE2s256 is an unknown cipher or digest
 speed: BLAKE2b512 is an unknown cipher or digest
-You have chosen to measure elapsed time instead of user CPU time.
-Doing chacha20-poly1305 for 3s on 16 size blocks: 3847728 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 64 size blocks: 1838819 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 256 size blocks: 529439 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 1024 size blocks: 139012 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 8192 size blocks: 17645 chacha20-poly1305's in 3.00s
-Doing chacha20-poly1305 for 3s on 16384 size blocks: 8833 chacha20-poly1305's in 3.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
-The 'numbers' are in 1000s of bytes per second processed.
-type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 chacha20-poly1305    20521.22k    39228.14k    45178.79k    47449.43k    48182.61k    48239.96k
-You have chosen to measure elapsed time instead of user CPU time.
-Doing 160 bits  ecdh's for 10s: 3014 160-bits ECDH ops in 10.00s
-Doing 192 bits  ecdh's for 10s: 2099 192-bits ECDH ops in 10.00s
-Doing 224 bits  ecdh's for 10s: 1349 224-bits ECDH ops in 10.01s
-Doing 256 bits  ecdh's for 10s: 6643 256-bits ECDH ops in 10.00s
-Doing 384 bits  ecdh's for 10s: 387 384-bits ECDH ops in 10.01s
-Doing 521 bits  ecdh's for 10s: 170 521-bits ECDH ops in 10.01s
-Doing 256 bits  ecdh's for 10s: 1118 256-bits ECDH ops in 10.01s
-Doing 256 bits  ecdh's for 10s: 1118 256-bits ECDH ops in 10.00s
-Doing 384 bits  ecdh's for 10s: 388 384-bits ECDH ops in 10.00s
-Doing 384 bits  ecdh's for 10s: 391 384-bits ECDH ops in 10.01s
-Doing 512 bits  ecdh's for 10s: 192 512-bits ECDH ops in 10.01s
-Doing 512 bits  ecdh's for 10s: 194 512-bits ECDH ops in 10.05s
-Doing 253 bits  ecdh's for 10s: 6444 253-bits ECDH ops in 10.00s
-Doing 448 bits  ecdh's for 10s: 967 448-bits ECDH ops in 10.00s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
                               op      op/s
  160 bits ecdh (secp160r1)   0.0033s    301.4
  192 bits ecdh (nistp192)   0.0048s    209.9
@@ -146,15 +29,6 @@ compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wa
  512 bits ecdh (brainpoolP512t1)   0.0518s     19.3
  253 bits ecdh (X25519)   0.0016s    644.4
  448 bits ecdh (X448)   0.0103s     96.7
-You have chosen to measure elapsed time instead of user CPU time.
-Doing 253 bits sign Ed25519's for 10s: 15327 253 bits Ed25519 signs in 10.00s 
-Doing 253 bits verify Ed25519's for 10s: 5649 253 bits Ed25519 verify in 10.00s
-Doing 456 bits sign Ed448's for 10s: 2319 456 bits Ed448 signs in 10.00s 
-Doing 456 bits verify Ed448's for 10s: 877 456 bits Ed448 verify in 10.01s
-OpenSSL 1.1.1u  30 May 2023
-built on: Fri Jun 23 15:47:53 2023 UTC
-options:bn(64,32) rc4(char) des(long) aes(partial) blowfish(ptr) 
-compiler: arm-openwrt-linux-muslgnueabi-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -Wformat -Werror=format-security -fstack-protector -fpic -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC -DOPENSSL_PREFER_CHACHA_OVER_GCM -DOPENSSL_SMALL_FOOTPRINT
                               sign    verify    sign/s verify/s
  253 bits EdDSA (Ed25519)   0.0007s   0.0018s   1532.7    564.9
  456 bits EdDSA (Ed448)   0.0043s   0.0114s    231.9     87.6
