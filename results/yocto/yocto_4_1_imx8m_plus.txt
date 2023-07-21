@@ -1,0 +1,45 @@
+version: 3.0.7
+built on: Tue Nov  1 14:14:36 2022 UTC
+options: bn(64,64)
+compiler: aarch64-poky-linux-gcc  -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=recipe-sysroot -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=  -fdebug-prefix-map=  -fmacro-prefix-map=  -fdebug-prefix-map=  -fdebug-prefix-map=  -fmacro-prefix-map=  -fdebug-prefix-map=  -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0xbd
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-CBC     136413.29k   420171.24k   860259.16k  1192573.27k  1343070.21k  1352974.34k
+AES-256-CBC     127381.58k   349258.18k   617330.18k   773958.31k   835420.16k   839090.18k
+AES-128-GCM      81194.23k   243246.85k   499557.80k   728659.29k   855231.15k   865888.94k
+AES-256-GCM      76818.18k   225322.97k   441920.34k   640682.67k   751949.14k   760709.12k
+sha1             16061.16k    59675.52k   197172.91k   462282.41k   765373.10k   801985.88k
+sha256           16125.65k    59189.55k   193598.04k   446919.00k   726592.17k   759922.69k
+sha512            9812.01k    39164.10k    84763.22k   143142.23k   179358.38k   182534.14k
+BLAKE2s256       10435.66k    41665.22k    94306.05k   140365.48k   163774.46k   165625.86k
+BLAKE2b512       10113.82k    40454.61k   120734.38k   206258.86k   260543.83k   265442.65k
+ChaCha20-Poly1305    50743.58k   112767.79k   224162.22k   281641.30k   299537.75k   300908.54k
+                              op      op/s
+ 160 bits ecdh (secp160r1)   0.0010s   1044.2
+ 192 bits ecdh (nistp192)   0.0012s    842.3
+ 224 bits ecdh (nistp224)   0.0016s    624.8
+ 256 bits ecdh (nistp256)   0.0003s   3361.0
+ 384 bits ecdh (nistp384)   0.0051s    195.4
+ 521 bits ecdh (nistp521)   0.0124s     80.7
+ 163 bits ecdh (nistk163)   0.0015s    651.8
+ 233 bits ecdh (nistk233)   0.0021s    467.3
+ 283 bits ecdh (nistk283)   0.0043s    231.1
+ 409 bits ecdh (nistk409)   0.0092s    109.0
+ 571 bits ecdh (nistk571)   0.0196s     51.1
+ 163 bits ecdh (nistb163)   0.0016s    616.5
+ 233 bits ecdh (nistb233)   0.0023s    444.3
+ 283 bits ecdh (nistb283)   0.0047s    212.2
+ 409 bits ecdh (nistb409)   0.0102s     98.2
+ 571 bits ecdh (nistb571)   0.0220s     45.6
+ 256 bits ecdh (brainpoolP256r1)   0.0018s    546.5
+ 256 bits ecdh (brainpoolP256t1)   0.0018s    546.9
+ 384 bits ecdh (brainpoolP384r1)   0.0051s    195.4
+ 384 bits ecdh (brainpoolP384t1)   0.0051s    197.8
+ 512 bits ecdh (brainpoolP512r1)   0.0086s    116.4
+ 512 bits ecdh (brainpoolP512t1)   0.0085s    117.0
+ 253 bits ecdh (X25519)   0.0003s   3396.2
+ 448 bits ecdh (X448)   0.0014s    732.6
+                              sign    verify    sign/s verify/s
+ 253 bits EdDSA (Ed25519)   0.0002s   0.0003s   5309.8   2898.1
+ 456 bits EdDSA (Ed448)   0.0015s   0.0015s    667.9    683.2
+
