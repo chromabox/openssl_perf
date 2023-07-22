@@ -1,17 +1,19 @@
 # Ubuntuでの結果
 
-### 結論
+### 評価したデバイス
 
 i7-950: Intel i7-950 3.06GHz 4C8T  
-i7-4790: Intel i7-4790 3.60/4.00 4C8T  
-NanoPi M4：ARM Cortex-A72/A53 6C6T  
-Raspberry Pi 4：ARM Cortex-A72 Broadcom BCM2711 1.5GHz 4C4T  
+i7-4790: Intel i7-4790 3.60/4.00GHz 4C8T  
+NanoPi M4：ARM Cortex-A72/A53 2.0/1.5GHz 6C6T(A72/2 A53/4)  
+Raspberry Pi4：ARM Cortex-A72 Broadcom BCM2711 1.5GHz 4C4T  
 
+---
+### 総評
 
 ---
 ### 測定結果
 
-・ブロック暗号系(16384 bytes)
+・共通鍵暗号系(16384 bytes)
 | ターゲット | AES-128-CBC | AES-256-CBC | AES-128-GCM | AES-256-GCM | ChaPoly |
 | ----  | ----:  | ----: | ----: | ----: | ----: | 
 | i7-950 | 325773.99k | 230834.77k | 220217.34k | 189054.98k | 675883.69k |
@@ -27,7 +29,7 @@ Raspberry Pi 4：ARM Cortex-A72 Broadcom BCM2711 1.5GHz 4C4T
 | Nanopi M4 | 981073.92k | 874190.17k | 245377.71k | 183003.82k | 299079.00k |
 | Raspberry Pi4 | 230195.20k | 170360.83k | 244995.41k | 183009.28k | 299543.21k |
 
-・楕円暗号と認証
+・楕円暗号と公開鍵認証
 | ターゲット | op/s(X25519) | op/s(X448) | sign/s(Ed25519) | verify/s(Ed25519) | sign/s(Ed448) | verify/s(Ed448) |
 | ---- |  ----:  | ----: | ----: | ----: | ----: | ----: | 
 | i7-950 | 12931.5 | 2688.2 | 15854.6 | 5769.3 | 2749.7 | 2548.6 | 
