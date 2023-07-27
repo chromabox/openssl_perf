@@ -2,8 +2,8 @@
 
 ### 評価したデバイス
 
-i7-950: Intel i7-950 3.06GHz 4C8T  
-i7-4790: Intel i7-4790 3.60/4.00GHz 4C8T  
+i7-950: Intel i7-950 3.06GHz 4C8T (デスクトップ) 
+i7-4790: Intel i7-4790 3.60/4.00GHz 4C8T  (デスクトップ)
 NanoPi M4：ARM Cortex-A72/A53 2.0/1.5GHz 6C6T(A72/2 A53/4)  
 Raspberry Pi4：ARM Cortex-A72 Broadcom BCM2711 1.5GHz 4C4T  
 
