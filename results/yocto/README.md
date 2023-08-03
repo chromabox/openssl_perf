@@ -6,9 +6,6 @@ i.MX6 UL: ARM Cortex-A7 NXP i.MX6 Ultralite (1C/1T)
 i.MX8 MP: NXP Cortex-A53 NXP i.MX8M Plus (4C/4T)  
 
 ---
-### 総評
-
----
 ### 測定結果
 
 ・共通鍵暗号系(16384 bytes)
