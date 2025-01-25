@@ -50,7 +50,7 @@ openssl_perf.bat
 
 ・OpenWrt  
 bcm4708：ARM Cortex-A9 Broadcom BCM4708A0 800MHz 2C2T  
-mt7612：MIPS MediaTek MT7621AT 880MHz 2C4T
+mt7612：MIPS MediaTek MT7621AT 880MHz 2C4T  
 mt7622: MIPS MediaTek MT7622B 1350MHz 2C2T  
 
 
