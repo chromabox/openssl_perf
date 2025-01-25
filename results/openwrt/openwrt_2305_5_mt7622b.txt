@@ -1,0 +1,36 @@
+OpenSSL 3.0.15 3 Sep 2024 (Library: OpenSSL 3.0.15 3 Sep 2024)
+built on: Fri Jun 23 15:47:53 2023 UTC
+built on: Wed Jan 22 20:01:01 2025 UTC
+options: bn(64,64)
+compiler: aarch64-openwrt-linux-musl-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -ffunction-sections -fdata-sections -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fPIC -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -ffunction-sections -fdata-sections -Wformat -Werror=format-security -fstack-protector -fPIC -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+CPUINFO: OPENSSL_armcap=0x3d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-CBC     106707.74k   325671.21k   645897.22k   895298.56k  1007474.01k  1016960.34k
+AES-256-CBC      98771.68k   269370.69k   463512.06k   581096.79k   626750.81k   626469.55k
+AES-128-GCM      64243.88k   195755.43k   388252.42k   548187.82k   642378.41k   646075.73k
+AES-256-GCM      61297.54k   181636.65k   343500.63k   486269.27k   564775.59k   571381.08k
+sha1             10007.88k    37440.32k   127155.71k   317573.46k   564259.50k   596765.35k
+sha256            9679.62k    36454.02k   123514.11k   304574.46k   533673.30k   562801.32k
+sha512            5773.05k    23076.59k    55241.90k   101026.13k   133327.53k   136205.65k
+speed: BLAKE2s256 is an unknown cipher or digest
+speed: BLAKE2b512 is an unknown cipher or digest
+ChaCha20-Poly1305    36579.46k    84790.95k   168171.69k   211367.59k   224960.51k   225897.13k
+                              op      op/s
+ 160 bits ecdh (secp160r1)   0.0015s    678.1
+ 192 bits ecdh (nistp192)   0.0018s    554.9
+ 224 bits ecdh (nistp224)   0.0024s    421.0
+ 256 bits ecdh (nistp256)   0.0004s   2503.5
+ 384 bits ecdh (nistp384)   0.0073s    136.2
+ 521 bits ecdh (nistp521)   0.0173s     57.7
+ 256 bits ecdh (brainpoolP256r1)   0.0027s    369.9
+ 256 bits ecdh (brainpoolP256t1)   0.0027s    373.0
+ 384 bits ecdh (brainpoolP384r1)   0.0073s    136.7
+ 384 bits ecdh (brainpoolP384t1)   0.0072s    138.1
+ 512 bits ecdh (brainpoolP512r1)   0.0122s     81.9
+ 512 bits ecdh (brainpoolP512t1)   0.0121s     82.8
+ 253 bits ecdh (X25519)   0.0004s   2315.3
+ 448 bits ecdh (X448)   0.0022s    448.8
+                              sign    verify    sign/s verify/s
+ 253 bits EdDSA (Ed25519)   0.0003s   0.0006s   3283.5   1696.9
+ 456 bits EdDSA (Ed448)   0.0017s   0.0024s    586.0    422.4
